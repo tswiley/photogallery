@@ -45,3 +45,78 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+/* Mobile First*/
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 375px;
+    margin: 0 auto;
+    background-color: #000000;
+    }
+
+    .container {
+    width: 100%;
+    padding: 10px;
+    }
+
+    section {
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    }
+
+    img {
+        width: 50%;
+    }
+      
+
+    /* Styles for screens larger than 485px */
+    @media (min-width: 485px) {
+    body {
+        font-size: 16px;
+        width: 880px;
+        margin: 0 auto;
+        background-color: #000000;
+    }
+
+    .container {
+        max-width: 480px;
+        margin: 0 auto;
+    }
+
+    .section {
+        padding: 20px;
+    }
+}
+
+@media (min-width: 880px) {
+    body {
+        font-size: 16px;
+        width: 1300px;
+        margin: 0 auto;
+        background-color: #000000;
+    }
+
+    .container {
+        max-width: 480px;
+        margin: 0 auto;
+    }
+
+    .section {
+        padding: 20px;
+    }
+
+    .section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section img {
+  flex-basis: 50%;
+  max-width: 100%;
+}
+
+}
