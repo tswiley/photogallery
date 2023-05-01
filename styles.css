@@ -134,7 +134,6 @@ p {
   margin: 10px;
 }
 
-
   
 section {
 background-color: #ffffff;
@@ -227,7 +226,6 @@ width: 100%;
 }
     
 
-
 @media (min-width: 880px) {
 body {
     font-size: 16px;
@@ -267,4 +265,61 @@ body {
     width: calc(33.33% - 20px); /* Subtract the margin value from the desired width */
     margin: 10px;
     }
+}
+
+figcaption,
+label,
+input,
+small {
+  font-size: 1em;
+}
+
+img {
+  width: 100%;
+}
+
+figcaption {
+  text-align: center;
+}
+
+#contact {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+form label {
+  display: block;
+  padding-left: 10px;
+  text-align: left;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+section#contact {
+  text-align: center;
+}
+
+section#contact .form-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+section#contact form {
+  width: 100%;
+  max-width: 400px; /* Adjust the maximum width as needed */
+  display: grid;
+  gap: 10px;
+}
+
+section#contact form label,
+section#contact form input,
+section#contact form textarea,
+section#contact form button {
+  width: 100%;
 }
