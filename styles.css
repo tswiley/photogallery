@@ -62,17 +62,13 @@ body {
     margin: 0 auto;
 }
 
-#top {
-    width: 375px;
-    text-align: center;
-}
-
 h1 {
     max-width: 100%;
     font-size: 3em;
     color: #007d7b;
     padding-top: 10px;
     padding-bottom: 10px;
+    text-align: center;
 }
 
 nav {
@@ -116,9 +112,6 @@ h2 {
 p {
     font-size: 1.0em;
     padding-bottom: 10px;
-}
-
-#about {
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -224,7 +217,7 @@ footer {
 /* Styles for screens larger than 485px */
 @media (min-width: 485px) {
 
-    #top {
+    h1 {
         width: 500px;
         text-align: center;
         margin: 0 auto;
