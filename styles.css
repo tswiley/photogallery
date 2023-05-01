@@ -169,12 +169,6 @@ section#contact {
     text-align: center;
 }
 
-section#contact .form-container {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-}
-
 section#contact form {
     width: 100%;
     max-width: 400px; 
@@ -184,7 +178,7 @@ section#contact form {
 
 section#contact form label,
 section#contact form input,
-section#contact form textarea, {
+section#contact form textarea {
     width: 100%;
 }
 
@@ -230,13 +224,6 @@ footer {
         background-color: #000000;
     }
 
-    .container {
-        max-width: 480px;
-        margin: 0 auto;
-        display: grid;
-        gap: 20px;
-    }
-
     .section {
         padding: 20px;
         display: grid;
@@ -268,13 +255,6 @@ footer {
         width: 1300px;
         margin: 0 auto;
         background-color: #000000;
-    }
-
-    .container {
-        max-width: 480px;
-        margin: 0 auto;
-        display: grid;
-        gap: 20px;
     }
 
     .section {
