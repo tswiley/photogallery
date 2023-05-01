@@ -76,7 +76,7 @@ h1 {
 }
 
 nav {
-  display: flex;
+  display: grid;
   justify-content: center; 
   align-items: center; 
   width: 100%;
@@ -124,154 +124,26 @@ p {
 }
 
 #figures {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 
 #figures figure {
   margin: 10px;
 }
 
-  
 section {
-background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 figcaption,
 label,
 input,
 small {
-font-size: 1em;
-}
-
-img {
-width: 100%;
-}
-
-figcaption {
-text-align: center;
-}
-
-#contact {
-background-color: #000000;
-color: #ffffff;
-}
-
-form label {
-display: block;
-padding-left: 10px;
-text-align: left;
-}
-
-form input[type="text"],
-form input[type="email"],
-form textarea {
-padding: 5px;
-margin-bottom: 10px;
-}
-
-section#contact {
-text-align: center;
-}
-
-section#contact .form-container {
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
-section#contact form {
-width: 100%;
-max-width: 400px; /* Adjust the maximum width as needed */
-}
-
-section#contact form label,
-section#contact form input,
-section#contact form textarea,
-section#contact form button {
-width: 100%;
-}
-
-/* Styles for screens larger than 485px */
-@media (min-width: 485px) {
-    body {
-        font-size: 16px;
-        width: 880px;
-        margin: 0 auto;
-        background-color: #000000;
-    }
-
-    .container {
-        max-width: 480px;
-        margin: 0 auto;
-    }
-
-    .section {
-        padding: 20px;
-    }
-
-    #figures {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-
-    #figures figure {
-        width: calc(50% - 20px); /* Subtract the margin value from the desired width */
-        margin: 10px;
-    }
-}
-    
-
-@media (min-width: 880px) {
-body {
-    font-size: 16px;
-    width: 1300px;
-    margin: 0 auto;
-    background-color: #000000;
-}
-
-.container {
-    max-width: 480px;
-    margin: 0 auto;
-}
-
-.section {
-    padding: 20px;
-}
-
-.section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.section img {
-    flex-basis: 50%;
-    max-width: 100%;
-}
-
-#figures {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    }
-
-    #figures figure {
-    width: calc(33.33% - 20px); /* Subtract the margin value from the desired width */
-    margin: 10px;
-    }
-}
-
-figcaption,
-label,
-input,
-small {
-  font-size: 1em;
+    font-size: 1em;
 }
 
 img {
@@ -312,7 +184,7 @@ section#contact .form-container {
 
 section#contact form {
   width: 100%;
-  max-width: 400px; /* Adjust the maximum width as needed */
+  max-width: 400px; 
   display: grid;
   gap: 10px;
 }
@@ -322,4 +194,77 @@ section#contact form input,
 section#contact form textarea,
 section#contact form button {
   width: 100%;
+}
+
+/* Styles for screens larger than 485px */
+@media (min-width: 485px) {
+  body {
+    font-size: 16px;
+    width: 880px;
+    margin: 0 auto;
+    background-color: #000000;
+  }
+
+  .container {
+    max-width: 480px;
+    margin: 0 auto;
+    display: grid;
+    gap: 20px;
+  }
+
+  .section {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  #figures {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: start;
+  }
+
+  #figures figure {
+    margin: 0;
+  }
+}
+
+@media (min-width: 880px) {
+  body {
+    font-size: 16px;
+    width: 1300px;
+    margin: 0 auto;
+    background-color: #000000;
+  }
+
+  .container {
+    max-width: 480px;
+    margin: 0 auto;
+    display: grid;
+    gap: 20px;
+  }
+
+  .section {
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .section img {
+    max-width: 100%;
+  }
+
+  #figures {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: start;
+  }
+
+  #figures figure {
+    margin: 0;
+  }
 }
