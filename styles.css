@@ -14,129 +14,129 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-  display: block;
+    display: block;
 }
 
 body {
-  line-height: 1;
+    line-height: 1;
 }
 
 ol, ul {
-  list-style: none;
+    list-style: none;
 }
 
 blockquote, q {
-  quotes: none;
+    quotes: none;
 }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
-  content: none;
+    content: '';
+    content: none;
 }
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* Mobile First */
 html {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
 }
 
 body {
-  width: 375px;
-  margin: 0 auto;
+    width: 375px;
+    margin: 0 auto;
 }
 
 #top {
-  width: 375px;
-  text-align: center;
+    width: 375px;
+    text-align: center;
 }
 
 h1 {
-  max-width: 100%;
-  font-size: 3em;
-  color: #007d7b;
-  padding-top: 10px;
-  padding-bottom: 10px;
+    max-width: 100%;
+    font-size: 3em;
+    color: #007d7b;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 nav {
-  display: grid;
-  justify-content: center; 
-  align-items: center; 
-  width: 100%;
-  background-color: #000000;
-  padding-top: 35px;
-  padding-bottom: 35px;
+    display: grid;
+    justify-content: center; 
+    align-items: center; 
+    width: 100%;
+    background-color: #000000;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 nav ul {
-  text-align: center;
-  list-style: none;
-  padding: 0;
-  margin: 0;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 nav ul li {
-  display: inline-block;
+    display: inline-block;
 }
 
 nav ul li a {
-  text-decoration: none;
-  color: #ffffff;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 nav a {
-  font-size: 1.5em;
-  padding: 5px;
+    font-size: 1.5em;
+    padding: 5px;
 }
 
 h2 {
-  font-size: 2em;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 30px;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 p {
-  font-size: 1.0em;
-  padding-bottom: 10px;
+    font-size: 1.0em;
+    padding-bottom: 10px;
 }
 
 #about {
-  padding-left: 20px;
-  padding-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #figures {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 #figures figure {
-  margin: 10px;
+    margin: 10px;
 }
 
 section {
-  background-color: #ffffff;
+    background-color: #ffffff;
 }
 
 figcaption,
@@ -147,52 +147,52 @@ small {
 }
 
 img {
-  width: 100%;
+    width: 100%;
 }
 
 figcaption {
-  text-align: center;
+    text-align: center;
 }
 
 #contact {
-  background-color: #000000;
-  color: #ffffff;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 form label {
-  display: block;
-  padding-left: 10px;
-  text-align: left;
+    display: block;
+    padding-left: 10px;
+    text-align: left;
 }
 
 form input[type="text"],
 form input[type="email"],
 form textarea {
-  padding: 5px;
-  margin-bottom: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
 }
 
 section#contact {
-  text-align: center;
+    text-align: center;
 }
 
 section#contact .form-container {
-  display: grid;
-  justify-content: center;
-  align-items: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 section#contact form {
-  width: 100%;
-  max-width: 400px; 
-  display: grid;
-  gap: 10px;
+    width: 100%;
+    max-width: 400px; 
+    display: grid;
+    gap: 10px;
 }
 
 section#contact form label,
 section#contact form input,
 section#contact form textarea, {
-  width: 100%;
+    width: 100%;
 }
 
 section#contact form input, 
@@ -212,8 +212,6 @@ section#contact form button {
     border: none;
     outline: none;
   }
-  
-  
 
 footer {
     background-color: #000000;
@@ -222,79 +220,96 @@ footer {
     place-items: center;
     padding-top: 30px;
   }
-  
 
 /* Styles for screens larger than 485px */
 @media (min-width: 485px) {
-  body {
-    font-size: 16px;
-    width: 880px;
-    margin: 0 auto;
-    background-color: #000000;
-  }
 
-  .container {
-    max-width: 480px;
-    margin: 0 auto;
-    display: grid;
-    gap: 20px;
-  }
+    #top {
+        width: 500px;
+        text-align: center;
+        margin: 0 auto;
+      }
 
-  .section {
-    padding: 20px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
+    body {
+        font-size: 16px;
+        width: 880px;
+        margin: 0 auto;
+        background-color: #000000;
+    }
 
-  #figures {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    align-items: start;
-  }
+    .container {
+        max-width: 480px;
+        margin: 0 auto;
+        display: grid;
+        gap: 20px;
+    }
 
-  #figures figure {
-    margin: 0;
-  }
+    .section {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    #figures {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        align-items: start;
+    }
+
+    #figures figure {
+        margin: 0;
+    }
+
+    section#contact {
+        display: grid;
+        place-items: center;
+        margin: 0 auto;
+    }
 }
 
 @media (min-width: 880px) {
-  body {
-    font-size: 16px;
-    width: 1300px;
-    margin: 0 auto;
-    background-color: #000000;
-  }
+    body {
+        font-size: 16px;
+        width: 1300px;
+        margin: 0 auto;
+        background-color: #000000;
+    }
 
-  .container {
-    max-width: 480px;
-    margin: 0 auto;
-    display: grid;
-    gap: 20px;
-  }
+    .container {
+        max-width: 480px;
+        margin: 0 auto;
+        display: grid;
+        gap: 20px;
+    }
 
-  .section {
-    padding: 20px;
-    display: grid;
-    justify-content: center;
-    gap: 20px;
-  }
+    .section {
+        padding: 20px;
+        display: grid;
+        justify-content: center;
+        gap: 20px;
+    }
 
-  .section img {
-    max-width: 100%;
-  }
+    .section img {
+        max-width: 100%;
+    }
 
-  #figures {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    align-items: start;
-  }
+    #figures {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        align-items: start;
+    }
 
-  #figures figure {
-    margin: 0;
-  }
+    #figures figure {
+        margin: 0;
+    }
 
-  
+    section#contact {
+        display: grid;
+        place-items: center;
+        margin: 0 auto;
+    }
+
 }
