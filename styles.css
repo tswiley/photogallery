@@ -191,10 +191,38 @@ section#contact form {
 
 section#contact form label,
 section#contact form input,
-section#contact form textarea,
-section#contact form button {
+section#contact form textarea, {
   width: 100%;
 }
+
+section#contact form input, 
+section#contact form textarea {
+    color: #007d7b;
+    font-weight: bold;
+}
+
+section#contact form button {
+    background-color: #007d7b;
+    color: #ffffff;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+    width: 250px;
+    height: 25px;
+    border: none;
+    outline: none;
+  }
+  
+  
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    padding-top: 30px;
+  }
+  
 
 /* Styles for screens larger than 485px */
 @media (min-width: 485px) {
@@ -267,4 +295,6 @@ section#contact form button {
   #figures figure {
     margin: 0;
   }
+
+  
 }
